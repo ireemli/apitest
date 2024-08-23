@@ -1,0 +1,1 @@
+npx cypress run spec--cypress/e2e/headersCookies.cy.js
