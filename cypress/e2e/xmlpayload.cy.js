@@ -35,7 +35,7 @@ describe('Xml parsing', () => {
             expect(response.status).to.eq(200);
             parser.parseString(response.body, (err, result) => {
                 expect(result.Pet.name).to.eq("Jimmy");
-                expect(result.Pet.id).to.eq(petId); // id karşılaştırması yapılıyor
+                expect(result.Pet.id).to.eq(petId); 
             });
         });
     });
